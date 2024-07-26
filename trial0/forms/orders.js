@@ -38,3 +38,48 @@ function onDataChangeCustomer(oldValue, newValue, event) {
 	
 	return true
 }
+
+/**
+ * Fired when the button is clicked.
+ *
+ * @param {JSEvent} event
+ *
+ * @private
+ *
+ * @properties={typeid:24,uuid:"91087744-C24B-4651-A2D8-7C71EBDDE0A4"}
+ */
+function addItem(event) {
+	
+	//create the new record
+	orders_to_order_details.newRecord();
+	
+	//set the quantity default to 1
+	orders_to_order_details.quantity = 1;
+
+}
+
+/**
+ * Called when the columns data is changed.
+ *
+ * @param {Number} foundsetindex
+ * @param {Number} [columnindex]
+ * @param [oldvalue]
+ * @param [newvalue]
+ * @param {JSEvent} [event]
+ * @param {JSRecord} [record]
+ *
+ * @return {Boolean}
+ *
+ * @private
+ *
+ * @properties={typeid:24,uuid:"C08FB104-F16E-46B6-9ED5-28759ED81B03"}
+ */
+function onColumnDataChange(foundsetindex, columnindex, oldvalue, newvalue, event, record) {
+	
+	// Check if the first column (Product) was changed
+	if(columnindex == 0){
+		orders_to_order_details.unitprice = 
+			orders_to_order_details.order_details_to_products.unitprice;
+	}
+	return true;
+}

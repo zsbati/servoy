@@ -176,6 +176,25 @@ typeid:7,
 uuid:"BA8B8CF3-8D29-4107-9E75-89D088D144FA"
 },
 {
+cssPosition:"191,-1,-1,617,105,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"617",
+right:"-1",
+top:"191",
+width:"105"
+},
+onActionMethodID:"91087744-C24B-4651-A2D8-7C71EBDDE0A4",
+text:"Add Item"
+},
+name:"button_2",
+typeName:"bootstrapcomponents-button",
+typeid:47,
+uuid:"C78FED2F-7508-4BE7-B3C7-2EA0336DBB59"
+},
+{
 cssPosition:"70,-1,-1,calc( 25% + 10px),180,20",
 text:"Customer",
 transparent:true,
@@ -284,7 +303,8 @@ left:"calc( 25% + 10px)",
 right:"10",
 top:"274",
 width:"200"
-}
+},
+onColumnDataChange:"C08FB104-F16E-46B6-9ED5-28759ED81B03"
 },
 name:"datagrid_6",
 typeName:"aggrid-groupingtable",
