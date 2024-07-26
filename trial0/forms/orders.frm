@@ -11,11 +11,66 @@ typeid:7,
 uuid:"010CA68A-27A4-4B9D-ADED-E841EA8DEADF"
 },
 {
+cssPosition:"98,-1,-1,calc( 25% + 200px),180,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"calc( 25% + 200px)",
+right:"-1",
+top:"98",
+width:"180"
+},
+dataProviderID:"shipaddress"
+},
+name:"textbox_807",
+typeName:"bootstrapcomponents-textbox",
+typeid:47,
+uuid:"042B5AF4-68D6-4930-89E3-0CA3307AFB50"
+},
+{
 cssPosition:"130,-1,-1,calc( 25% + 10px),180,20",
 text:"Employee",
 transparent:true,
 typeid:7,
 uuid:"0DD3041B-9218-405C-9B5C-E8FF61F0CE2C"
+},
+{
+cssPosition:"218,-1,-1,calc( 25% + 200px),180,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"calc( 25% + 200px)",
+right:"-1",
+top:"218",
+width:"180"
+},
+dataProviderID:"shipcountry"
+},
+name:"textbox_498",
+typeName:"bootstrapcomponents-textbox",
+typeid:47,
+uuid:"2EAAC7DB-94FD-4A0E-81CA-809377FF437F"
+},
+{
+cssPosition:"45,10,-1,-1,140,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"-1",
+right:"10",
+top:"45",
+width:"140"
+},
+onActionMethodID:"5B331224-EDCF-4A49-B30C-C46C7F042696",
+text:"New Order"
+},
+name:"button_1",
+typeName:"bootstrapcomponents-button",
+typeid:47,
+uuid:"3A8F1105-15DC-4280-AE28-77A1A9D80019"
 },
 {
 height:480,
@@ -35,6 +90,7 @@ top:"95",
 width:"178"
 },
 dataProviderID:"customerid",
+onDataChangeMethodID:"BED09B12-6A38-426D-82B9-702B373D1872",
 valuelistID:"FFC1B481-27EE-4295-AD0F-4C2F84ECD926"
 },
 name:"typeahead_1",
@@ -79,6 +135,45 @@ name:"calendar_810",
 typeName:"bootstrapcomponents-calendar",
 typeid:47,
 uuid:"4CF0CF80-1FC1-4B9C-8A87-21F5FBA9A4C1"
+},
+{
+cssPosition:"78,-1,-1,calc( 25% + 200px),180,20",
+text:"Shipaddress",
+transparent:true,
+typeid:7,
+uuid:"5B2DAC18-A2EE-4069-A8D2-C4AB88D03838"
+},
+{
+cssPosition:"198,-1,-1,calc( 25% + 200px),180,20",
+text:"Shipcountry",
+transparent:true,
+typeid:7,
+uuid:"6C5CC981-ACDB-4F66-8514-16775A33456D"
+},
+{
+cssPosition:"158,-1,-1,calc( 25% + 200px),180,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"calc( 25% + 200px)",
+right:"-1",
+top:"158",
+width:"180"
+},
+dataProviderID:"shipcity"
+},
+name:"textbox_296",
+typeName:"bootstrapcomponents-textbox",
+typeid:47,
+uuid:"8F0B2616-BBBD-45B4-9607-B55F9AD63EFE"
+},
+{
+cssPosition:"138,-1,-1,calc( 25% + 200px),180,20",
+text:"Shipcity",
+transparent:true,
+typeid:7,
+uuid:"BA8B8CF3-8D29-4107-9E75-89D088D144FA"
 },
 {
 cssPosition:"70,-1,-1,calc( 25% + 10px),180,20",
@@ -147,6 +242,7 @@ json:{
 columns:[
 {
 dataprovider:"orders_to_order_details.productid",
+editType:"TYPEAHEAD",
 headerTitle:"Product",
 id:"orders_to_order_details.productid",
 styleClassDataprovider:null,
@@ -155,6 +251,7 @@ valuelist:"57A267B0-3656-4544-9130-E13AD6891338"
 },
 {
 dataprovider:"orders_to_order_details.quantity",
+editType:"TEXTFIELD",
 headerTitle:"Quantity",
 id:"orders_to_order_details.quantity",
 maxWidth:150,
@@ -163,6 +260,7 @@ svyUUID:"BE2458A1-B155-40B5-87AA-21EE452FE1B4"
 },
 {
 dataprovider:"orders_to_order_details.unitprice",
+editType:"TEXTFIELD",
 format:"¤#.00|#.00",
 headerTitle:"Unit Price",
 id:"orders_to_order_details.unitprice",
@@ -197,5 +295,6 @@ uuid:"DDBBEA9E-4BC8-46CA-9ACF-BBD2641AC573"
 name:"orders",
 navigatorID:"-1",
 showInMenu:true,
+size:"753,480",
 typeid:3,
 uuid:"349D00B4-919A-4C6A-B3A2-B7F885598FBF"
