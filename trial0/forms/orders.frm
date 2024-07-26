@@ -151,7 +151,7 @@ headerTitle:"Product",
 id:"orders_to_order_details.productid",
 styleClassDataprovider:null,
 svyUUID:"542E8174-5031-491B-8CA1-52B84CB1C3F6",
-valuelist:"27944171-3005-458C-8AB0-AA797C29213C"
+valuelist:"57A267B0-3656-4544-9130-E13AD6891338"
 },
 {
 dataprovider:"orders_to_order_details.quantity",
@@ -171,10 +171,11 @@ styleClassDataprovider:null,
 svyUUID:"54D72E64-AC73-45A9-80E8-6B2BA72306F8"
 },
 {
-dataprovider:"orders_to_order_details.Subtotal",
+dataprovider:"orders_to_order_details.subtotal",
 editType:null,
 format:"¤#.00",
 headerTitle:"Subtotal",
+maxWidth:150,
 svyUUID:"80CCCC0B-8F13-4675-B14F-5FCD99501EDD"
 }
 ],
