@@ -90,3 +90,18 @@ function onColumnDataChange(foundsetindex, columnindex, oldvalue, newvalue, even
 	}
 	return true;
 }
+
+/**
+ * @param {JSEvent} event
+ *
+ * @private
+ *
+ * @properties={typeid:24,uuid:"5AD3E8F2-72D9-415B-B207-C4866327A6ED"}
+ */
+function onSearch(event) {
+	
+	var search = scopes.svySearch.createSimpleSearch(foundset);
+	search.setSearchAllColumns();
+	search.setSearchText(searchText);
+	search.loadRecords(foundset);	
+}

@@ -57,18 +57,19 @@ typeid:7,
 uuid:"0DD3041B-9218-405C-9B5C-E8FF61F0CE2C"
 },
 {
-cssPosition:"85,-1,-1,604,140,30",
+cssPosition:"82,-1,-1,613,131,30",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"30",
-left:"604",
+left:"613",
 right:"-1",
-top:"85",
-width:"140"
+top:"82",
+width:"131"
 },
 dataProviderID:"searchText",
-placeholderText:"Enter search criteria"
+onActionMethodID:"5AD3E8F2-72D9-415B-B207-C4866327A6ED",
+placeholderText:"Search criteria"
 },
 name:"textbox_1",
 typeName:"bootstrapcomponents-textbox",
@@ -216,14 +217,14 @@ typeid:7,
 uuid:"BA8B8CF3-8D29-4107-9E75-89D088D144FA"
 },
 {
-cssPosition:"159,-1,-1,623,105,30",
+cssPosition:"158,-1,-1,645,105,30",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"30",
-left:"623",
+left:"645",
 right:"-1",
-top:"159",
+top:"158",
 width:"105"
 },
 onActionMethodID:"91087744-C24B-4651-A2D8-7C71EBDDE0A4",
