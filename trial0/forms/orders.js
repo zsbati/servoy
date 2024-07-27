@@ -103,5 +103,7 @@ function onSearch(event) {
 	var search = scopes.svySearch.createSimpleSearch(foundset);
 	search.setSearchAllColumns();
 	search.setSearchText(searchText);
+	search.addSearchProvider('orders_to_customers.companyname');
+	search.addSearchProvider('orders_to_order_details.order_details_to_products.productname');
 	search.loadRecords(foundset);	
 }
