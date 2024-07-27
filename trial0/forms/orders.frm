@@ -57,19 +57,19 @@ typeid:7,
 uuid:"0DD3041B-9218-405C-9B5C-E8FF61F0CE2C"
 },
 {
-cssPosition:"82,-1,-1,613,131,30",
+cssPosition:"10,75%,-1,10,140,30",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"30",
-left:"613",
-right:"-1",
-top:"82",
-width:"131"
+left:"10",
+right:"75%",
+top:"10",
+width:"140"
 },
 dataProviderID:"searchText",
 onActionMethodID:"5AD3E8F2-72D9-415B-B207-C4866327A6ED",
-placeholderText:"Search criteria"
+placeholderText:"Enter search criteria"
 },
 name:"textbox_1",
 typeName:"bootstrapcomponents-textbox",
