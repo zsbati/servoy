@@ -1,3 +1,10 @@
+/**
+ * @type {String}
+ *
+ * @properties={typeid:35,uuid:"304E82CE-B7BC-442D-B701-FA8D0D19A1B1"}
+ */
+var searchText = null;
+
 
 /**
  * Fired when the button is clicked.

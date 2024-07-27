@@ -40,6 +40,7 @@ top:"231",
 width:"80"
 },
 dataProviderID:"order_total",
+format:"¤#.00",
 styleClass:"font-weight-bold"
 },
 name:"datalabel_3",
@@ -54,6 +55,25 @@ text:"Employee",
 transparent:true,
 typeid:7,
 uuid:"0DD3041B-9218-405C-9B5C-E8FF61F0CE2C"
+},
+{
+cssPosition:"85,-1,-1,604,140,30",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"30",
+left:"604",
+right:"-1",
+top:"85",
+width:"140"
+},
+dataProviderID:"searchText",
+placeholderText:"Enter search criteria"
+},
+name:"textbox_1",
+typeName:"bootstrapcomponents-textbox",
+typeid:47,
+uuid:"0E34C7E3-6F18-4E5D-BF53-10F54BF90C6A"
 },
 {
 cssPosition:"218,-1,-1,calc( 25% + 200px),180,30",
@@ -196,14 +216,14 @@ typeid:7,
 uuid:"BA8B8CF3-8D29-4107-9E75-89D088D144FA"
 },
 {
-cssPosition:"191,-1,-1,630,105,30",
+cssPosition:"159,-1,-1,623,105,30",
 json:{
 cssPosition:{
 bottom:"-1",
 height:"30",
-left:"630",
+left:"623",
 right:"-1",
-top:"191",
+top:"159",
 width:"105"
 },
 onActionMethodID:"91087744-C24B-4651-A2D8-7C71EBDDE0A4",
