@@ -159,6 +159,28 @@ typeid:47,
 uuid:"49196529-96A4-48CD-A022-DBFC3BA4A24F"
 },
 {
+cssPosition:"51,-1,-1,616,200,100",
+json:{
+cssPosition:{
+bottom:"-1",
+height:"100",
+left:"616",
+right:"-1",
+top:"51",
+width:"200"
+},
+foundset:{"dataproviders":{
+"label":"order_details_to_products.productname",
+"value":null
+},"foundsetSelector":"orders_to_order_details"},
+type:"doughnut"
+},
+name:"chart_2",
+typeName:"svychartjs-chart",
+typeid:47,
+uuid:"49B3CE2D-C1F6-441E-AE7D-69E5D6669AD3"
+},
+{
 cssPosition:"210,-1,-1,calc( 25% + 10px),180,30",
 json:{
 cssPosition:{
@@ -356,6 +378,6 @@ uuid:"DDBBEA9E-4BC8-46CA-9ACF-BBD2641AC573"
 name:"orders",
 navigatorID:"-1",
 showInMenu:true,
-size:"753,480",
+size:"827,480",
 typeid:3,
 uuid:"349D00B4-919A-4C6A-B3A2-B7F885598FBF"
