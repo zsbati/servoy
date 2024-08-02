@@ -1,0 +1,11 @@
+addEmptyValue:1,
+customValues:"Add\r\
+Subtract\r\
+Multiply\r\
+Divide\r\
+",
+displayValueType:12,
+name:"operations",
+realValueType:12,
+typeid:34,
+uuid:"BFC4B62D-917F-4AE9-8376-285BBB2E3559"
