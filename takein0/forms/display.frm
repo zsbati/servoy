@@ -39,7 +39,7 @@ right:"-1",
 top:"47",
 width:"140"
 },
-dataProviderID:"tempWords",
+dataProviderID:"words",
 placeholderText:"WORDS"
 },
 name:"inputWords",
@@ -91,7 +91,7 @@ right:"-1",
 top:"47",
 width:"140"
 },
-dataProviderID:"tempJunkUUID",
+dataProviderID:"junk_uuid",
 placeholderText:"ID"
 },
 name:"inputJunkUUID",
